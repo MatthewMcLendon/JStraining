@@ -28,3 +28,7 @@ const gameCollection = [
     systems: ["Xbox", "Playstation", "Switch", "PC"],
   },
 ];
+
+export const useGames = () => {
+  return gameCollection;
+};
