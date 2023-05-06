@@ -1,0 +1,44 @@
+.game-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.game-container {
+  margin: 2rem;
+  background-color: #8ca7d4;
+  border-color: #1a161b;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 1rem;
+  width: 20%;
+  color: #1a161b;
+}
+
+.game-name {
+  margin: 0.5rem;
+  font-weight: bolder;
+  color: #e0380d;
+}
+
+.game-genre {
+  margin: 0.5rem;
+}
+
+.game-players {
+  margin: 0.5rem;
+}
+
+.game-rating {
+  margin: 0.5rem;
+}
+
+.game-systems {
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .game-container {
+    width: 100%;
+  }
+}
